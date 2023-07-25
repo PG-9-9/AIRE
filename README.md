@@ -1,7 +1,5 @@
 # Personalized Stock Recommender
 
-![Stock Recommender](link_to_image)
-
 ## Overview
 
 This repository contains the code and documentation for my Bachelor Thesis project, "Personalized Stock Recommender." The project was completed in May 2021 and aimed to design a system that provides personalized stock portfolio recommendations based on user interests and risk tolerance.
