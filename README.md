@@ -7,7 +7,7 @@ This repository contains the code and documentation for my Bachelor Thesis proje
 
 ## Project Details
 
-- **Title:** Personalized Stock Recommender
+- **Title:** Adaptable Individualized Investment Recommendation System
 - **Completion Date:** May 2021
 - **Degree:** Bachelor Thesis
 
