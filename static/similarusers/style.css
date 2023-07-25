@@ -1,0 +1,361 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body a {
+  text-decoration: none;
+  color: #172b4d;
+}
+
+
+/* DEFAULT STYLE */
+:root {
+  font-size: 20px;
+  --card-img-height: 200px;
+}
+
+.card-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+}
+
+.card {
+  align-self: flex-start;
+  position: relative;
+  width: 700px;
+  min-width: 275px;
+  margin: 0.75rem 0.75rem;
+  background: #F1F4F6;
+  transition: all 300ms ease-in-out;
+
+}
+.card .card-img {
+  visibility: hidden;
+  width: 100%;
+  height: var(--card-img-height);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.card .card-img-hovered {
+  --card-img-hovered-overlay: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0)
+  );
+  transition: all 350ms ease-in-out;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  height: var(--card-img-height);
+  top: 0;
+}
+.card .card-info {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  transition: all 200ms ease-in-out;
+}
+.card .card-info .card-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  transition: all 200ms ease-in-out;
+}
+.card .card-info .card-about .card-tag {
+  width: 60px;
+  max-width: 100px;
+  padding: 0.2rem 0.5rem;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #505f79;
+  color: white;
+  border-radius: 25px;
+}
+.card .card-info .card-about .card-tag.tag-news {
+  background: #3E68D4;
+}
+.card .card-info .card-about .card-tag.tag-deals {
+  background: #ffab00;
+}
+.card .card-info .card-about .card-tag.tag-politics {
+  width: 71px;
+  background: #ff5630;
+}
+.card .card-info .card-title {
+  z-index: 10;
+  font-size: 1rem;
+  padding-bottom: 0.75rem;
+  transition: all 350ms ease-in-out;
+}
+.card .card-info .card-creator {
+  padding-bottom: 0.75rem;
+  transition: all 250ms ease-in-out;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0px 15px 35px rgba(227, 252, 239, 0.1), 0px 5px 15px rgba(0, 0, 0, 0.07);
+  transform: scale(1.070);
+}
+
+
+.card-1 .card-img,
+.card-1 .card-img-hovered {
+  background-image: var(--card-img-hovered-overlay), url('./images/card_background_4.PNG');
+
+}
+
+.card-2 .card-img,
+.card-2 .card-img-hovered {
+  background-image: var(--card-img-hovered-overlay), url('./images/card_background_3.PNG');
+}
+
+.card-3 .card-img,
+.card-3 .card-img-hovered {
+  background-image: var(--card-img-hovered-overlay), url('./images/card_background_3.PNG');
+}
+
+.card-4 .card-img,
+.card-4 .card-img-hovered {
+  background-image: var(--card-img-hovered-overlay), url('./images/card_background_3.PNG');
+}
+
+.page-contain {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #E7F3F1;
+  border: 0.75em solid white;
+  padding: 2em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.data-card {
+  display: flex;
+  flex-direction: column;
+  max-width: em;
+  min-height: 20.75em;
+  overflow: hidden;
+  border-radius: 0.7em;
+  text-decoration: none;
+  background: white;
+  margin: 1em;
+  padding: 2.75em 2.5em;
+  box-shadow: 0 1.5em 2.5em -0.5em rgba(0, 0, 0, 0.1);
+  transition: transform 0.45s ease, background 0.45s ease;
+}
+.data-card .hthree {
+  color: #3E68D4;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1;
+  padding-bottom: 0.5em;
+  margin: 0 0 0.142857143em;
+  border-bottom: 2px solid #753BBD;
+  transition: color 0.45s ease, border 0.45s ease;
+}
+.data-card .hfour {
+  color: #3E68D4;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.777777778em;
+  transition: color 0.45s ease;
+}
+.data-card .hfive {
+  color: #627084;
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.777777778em;
+  transition: color 0.45s ease;
+  transform: translateY(-1em);
+}
+.data-card .pcard {
+  opacity: 0;
+  color: #FFFFFF;
+  font-weight: 600;
+  line-height: 1.8;
+  margin: 0 0 1.25em;
+  transform: translateY(-1em);
+  transition: opacity 0.45s ease, transform 0.5s ease;
+}
+.data-card .link-text {
+  display: block;
+  color: #3E68D4;
+  font-size: 0.7em;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: auto 0 0;
+  transition: color 0.45s ease;
+}
+.data-card .link-text svg {
+  margin-left: 0.5em;
+  transition: transform 0.6s ease;
+}
+.data-card .link-text svg path {
+  transition: fill 0.45s ease;
+}
+.data-card:hover {
+  background-image: linear-gradient(to bottom right,#0FF0B3, #036ED9);
+  transform: scale(1.02);
+  box-shadow: 0 1.5em 2.5em -0.5em rgba(62, 104, 212, 0.7);
+}
+.data-card:hover .hthree {
+  color: #FFFFFF;
+  border-bottom-color: white;
+}
+.data-card:hover .hfour {
+  color: #FFFFFF;
+}
+.data-card:hover .hfive {
+  color: #141414;
+}
+.data-card:hover .pcard {
+  opacity: 1;
+  transform: none;
+}
+.data-card:hover .link-text {
+  color: #FFFFFF;
+}
+.data-card:hover .link-text svg {
+  -webkit-animation: point 1.25s infinite alternate;
+          animation: point 1.25s infinite alternate;
+}
+.data-card:hover .link-text svg path {
+  fill: #FFFFFF;
+}
+
+.data-card-two {
+  display: flex;
+  flex-direction: column;
+  max-width: em;
+  min-height: 10.75em;
+  overflow: hidden;
+  border-radius: 0.7em;
+  text-decoration: none;
+  margin: 1em;
+  padding: 2.75em 2.5em;
+  box-shadow: 0 1.5em 2.5em -0.5em rgba(0, 0, 0, 0.1);
+  transition: transform 0.45s ease, background 0.45s ease;
+}
+
+.data-card-two .hthree {
+  color: #3E68D4;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1;
+  padding-bottom: 0.5em;
+  margin: 0 0 0.142857143em;
+  transition: color 0.45s ease, border 0.45s ease;
+}
+.data-card-two .hfour {
+  color: #3E68D4;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.777777778em;
+  transition: color 0.45s ease;
+}
+.data-card-two .hfive {
+  color: #627084;;
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.777777778em;
+  transition: color 0.45s ease;
+  transform: translateY(-1em);
+}
+.data-card-two .pcard {
+  opacity: 0;
+  color: #FFFFFF;
+  font-weight: 600;
+  line-height: 1.8;
+  margin: 0 0 1.25em;
+  transform: translateY(-1em);
+  transition: opacity 0.45s ease, transform 0.5s ease;
+}
+.data-card-two .link-text {
+  display: block;
+  color: #3E68D4;
+  font-size: 0.7em;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: auto 0 0;
+  transition: color 0.45s ease;
+}
+.data-card-two .link-text svg {
+  margin-left: 0.5em;
+  transition: transform 0.6s ease;
+}
+.data-card-two .link-text svg path {
+  transition: fill 0.45s ease;
+}
+.data-card-two:hover {
+  transform: scale(1.02);
+  background-image: linear-gradient(to bottom right, #C56CD6, #3425AF);
+  box-shadow: 0 1.5em 2.5em -0.5em rgba(62, 104, 212, 0.7);
+  
+}
+.data-card-two:hover .hthree {
+  color: #FFFFFF;
+}
+.data-card-two:hover .hfour {
+  color: #FFFFFF;
+}
+.data-card-two:hover .hfive {
+  color: #141414;
+}
+.data-card-two:hover .pcard {
+  opacity: 1;
+  transform: none;
+}
+.data-card-two:hover .link-text {
+  color: #FFFFFF;
+}
+.data-card-two:hover .link-text svg {
+  -webkit-animation: point 1.25s infinite alternate;
+          animation: point 1.25s infinite alternate;
+}
+.data-card-two:hover .link-text svg path {
+  fill: #FFFFFF;
+}
+
+
+@-webkit-keyframes point {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0.125em);
+  }
+}
+
+@keyframes point {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0.125em);
+  }
+}

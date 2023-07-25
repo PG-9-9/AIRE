@@ -1,0 +1,140 @@
+,Stock Ticker,Stock Names,Recommendation Score
+0,AAL,"American Airlines Group, Inc.",3.4
+1,AAPL,Apple Inc.,2.0
+2,ABMD,"ABIOMED, Inc.",2.3
+3,ADBE,Adobe Systems Incorporated,1.7
+4,ADI,"Analog Devices, Inc.",1.8
+5,ADP,"Automatic Data Processing, Inc.",2.9
+6,ADSK,"Autodesk, Inc.",2.1
+7,AKAM,"Akamai Technologies, Inc.",2.0
+8,ALGN,"Align Technology, Inc.",2.0
+9,ALXN,"Alexion Pharmaceuticals, Inc.",2.7
+10,AMAT,"Applied Materials, Inc.",1.9
+11,AMD,"Advanced Micro Devices, Inc.",2.3
+12,AMGN,Amgen Inc.,2.4
+13,AMZN,"Amazon.com, Inc.",1.7
+14,ANSS,"ANSYS, Inc.",2.4
+15,ATVI,"Activision Blizzard, Inc",1.9
+16,AVGO,Broadcom Inc.,2.0
+17,BIIB,Biogen Inc.,2.8
+18,BKNG,Booking Holdings Inc.,2.6
+19,CBOE,"Cboe Global Markets, Inc.",2.6
+20,CDNS,"Cadence Design Systems, Inc.",2.3
+21,CDW,CDW Corporation,2.0
+22,CERN,Cerner Corporation,2.4
+23,CHRW,"C.H. Robinson Worldwide, Inc.",3.0
+24,CHTR,"Charter Communications, Inc.",2.2
+25,CINF,Cincinnati Financial Corporation,2.8
+26,CMCSA,Comcast Corporation,2.0
+27,CME,CME Group Inc.,2.5
+28,COST,Costco Wholesale Corporation,2.1
+29,CPRT,"Copart, Inc.",1.7
+30,CSCO,"Cisco Systems, Inc.",2.2
+31,CSX,CSX Corporation,2.2
+32,CTAS,Cintas Corporation,2.3
+33,CTSH,Cognizant Technology Solutions Corporation,2.5
+34,CTXS,"Citrix Systems, Inc.",2.3
+35,CZR,Caesars Entertainment Corporation,2.0
+36,DISCA,"Discovery, Inc.",2.8
+37,DISCK,"Discovery, Inc.",3.0
+38,DISH,DISH Network Corporation,2.6
+39,DLTR,"Dollar Tree, Inc.",2.4
+40,DXCM,"DexCom, Inc.",1.7
+41,EA,Electronic Arts Inc.,2.1
+42,EBAY,eBay Inc.,2.5
+43,ENPH,"Enphase Energy, Inc.",2.2
+44,EQIX,"Equinix, Inc.",1.8
+45,ETSY,"Etsy, Inc.",1.7
+46,EXPD,"Expeditors International of Washington, Inc.",3.2
+47,EXPE,"Expedia Group, Inc.",2.3
+48,FANG,"Diamondback Energy, Inc.",1.9
+49,FAST,Fastenal Company,2.8
+50,FB,"Facebook, Inc.",1.8
+51,FFIV,"F5 Networks, Inc.",2.4
+52,FISV,"Fiserv, Inc.",1.8
+53,FITB,Fifth Third Bancorp,1.9
+54,FLIR,"FLIR Systems, Inc.",3.0
+55,FOX,"Twenty-First Century Fox, Inc.",6.0
+56,FOXA,"Twenty-First Century Fox, Inc.",2.5
+57,FTNT,"Fortinet, Inc.",2.1
+58,GILD,"Gilead Sciences, Inc.",2.3
+59,GOOG,Alphabet Inc.,1.5
+60,GOOGL,Alphabet Inc.,1.7
+61,GRMN,Garmin Ltd.,2.2
+62,HAS,"Hasbro, Inc.",1.9
+63,HBAN,Huntington Bancshares Incorporated,2.2
+64,HOLX,"Hologic, Inc.",1.8
+65,HSIC,"Henry Schein, Inc.",2.5
+66,IDXX,"IDEXX Laboratories, Inc.",1.9
+67,ILMN,"Illumina, Inc.",2.7
+68,INCY,Incyte Corporation,2.2
+69,INFO,IHS Markit Ltd.,2.0
+70,INTC,Intel Corporation,2.8
+71,INTU,Intuit Inc.,1.9
+72,IPGP,IPG Photonics Corporation,2.1
+73,ISRG,"Intuitive Surgical, Inc.",2.2
+74,JBHT,"J.B. Hunt Transport Services, Inc.",2.2
+75,JKHY,"Jack Henry & Associates, Inc.",2.6
+76,KHC,The Kraft Heinz Company,2.8
+77,KLAC,KLA-Tencor Corporation,2.3
+78,LKQ,LKQ Corporation,1.6
+79,LRCX,Lam Research Corporation,2.0
+80,MAR,Marriott International,2.5
+81,MCHP,Microchip Technology Incorporated,2.0
+82,MDLZ,"Mondelez International, Inc.",1.8
+83,MKTX,"MarketAxess Holdings, Inc.",2.7
+84,MNST,Monster Beverage Corporation,2.1
+85,MPWR,"Monolithic Power Systems, Inc.",1.8
+86,MSFT,Microsoft Corporation,1.6
+87,MU,"Micron Technology, Inc.",1.9
+88,MXIM,"Maxim Integrated Products, Inc.",2.8
+89,NCLH,Norwegian Cruise Line Holdings Ltd.,2.4
+90,NDAQ,"Nasdaq, Inc.",2.3
+91,NFLX,"Netflix, Inc.",2.0
+92,NTAP,"NetApp, Inc.",2.5
+93,NTRS,Northern Trust Corporation,2.9
+94,NVDA,NVIDIA Corporation,2.0
+95,NWS,News Corporation,6.0
+96,NWSA,News Corporation,1.9
+97,NXPI,NXP Semiconductors N.V.,2.2
+98,ODFL,"Old Dominion Freight Line, Inc.",2.3
+99,ORLY,"O&#39;Reilly Automotive, Inc.",2.1
+100,PAYX,"Paychex, Inc.",3.0
+101,PBCT,"People&#39;s United Financial, Inc.",3.0
+102,PCAR,PACCAR Inc.,2.6
+103,PENN,"Penn National Gaming, Inc.",2.4
+104,PEP,"Pepsico, Inc.",2.3
+105,PFG,Principal Financial Group Inc,2.7
+106,POOL,Pool Corporation,2.3
+107,PTC,PTC Inc.,1.9
+108,PYPL,"PayPal Holdings, Inc.",1.8
+109,QCOM,QUALCOMM Incorporated,2.0
+110,QRVO,"Qorvo, Inc.",2.2
+111,REGN,"Regeneron Pharmaceuticals, Inc.",2.0
+112,ROST,"Ross Stores, Inc.",1.9
+113,SBAC,SBA Communications Corporation,1.9
+114,SBUX,Starbucks Corporation,2.2
+115,SIVB,SVB Financial Group,2.3
+116,SNPS,"Synopsys, Inc.",2.0
+117,STX,Seagate Technology PLC,2.5
+118,SWKS,"Skyworks Solutions, Inc.",2.3
+119,TMUS,"T-Mobile US, Inc.",1.9
+120,TRMB,Trimble Inc.,1.9
+121,TROW,"T. Rowe Price Group, Inc.",3.0
+122,TSCO,Tractor Supply Company,2.3
+123,TSLA,"Tesla, Inc. ",2.8
+124,TTWO,"Take-Two Interactive Software, Inc.",2.2
+125,TXN,Texas Instruments Incorporated,2.4
+126,ULTA,"Ulta Beauty, Inc.",2.3
+127,VRSK,"Verisk Analytics, Inc.",2.2
+128,VRSN,"VeriSign, Inc.",2.0
+129,VRTX,Vertex Pharmaceuticals Incorporated,1.8
+130,WBA,"Walgreens Boots Alliance, Inc.",3.0
+131,WDC,Western Digital Corporation,2.2
+132,WLTW,Willis Towers Watson Public Limited Company,2.3
+133,WYNN,"Wynn Resorts, Limited",2.3
+134,XEL,Xcel Energy Inc.,2.9
+135,XLNX,"Xilinx, Inc.",2.8
+136,XRAY,DENTSPLY SIRONA Inc.,1.9
+137,ZBRA,Zebra Technologies Corporation,2.0
+138,ZION,Zions Bancorporation,2.7

@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{url_for('static', filename = 'userinfoform/fonts/icomoon/style.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename = 'userinfoform/css/owl.carousel.min.css')}}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'userinfoform/css/bootstrap.min.css')}}">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'userinfoform/css/style.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <link rel="shortcut icon" href="'{{url_for('static', filename = 'land_in_up/assets/images/favicon.png')}}" type="image/png">
+        
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'land_in_up/assets/css/animate.css')}}">
+                
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'land_in_up/assets/css/LineIcons.2.0.css')}}">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'land_in_up/assets/css/bootstrap-4.5.0.min.css')}}">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'land_in_up/assets/css/default.css')}}">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'land_in_up/assets/css/style.css')}}">
+
+    <title>AIRE</title>
+  </head>
+  <body>
+  
+    <header class="header-area">
+      <div class="navbar-area" style="background-color: #3E68D4;">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <nav class="navbar navbar-expand-lg">
+                          <a class="navbar-brand">
+                              <h1>AIRE</h1>
+                              <!-- <img src="assets/images/AIRE_logo.png" width="111.196" height="30.566"" alt="Logo"> -->
+                          </a>
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="toggler-icon"></span>
+                              <span class="toggler-icon"></span>
+                              <span class="toggler-icon"></span>
+                          </button>
+
+                          <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                              <ul id="nav" class="navbar-nav ml-auto">
+                                  <li class="nav-item active">
+                                      <a class="page-scroll">Home</a>
+                                  </li>
+                              </ul>
+                          </div> <!-- navbar collapse -->
+                          
+                          <div class="navbar-btn d-none d-sm-inline-block">
+                              <a class="main-btn" data-scroll-nav="0" href="./signin.html" rel="nofollow">Sign In</a>
+                          </div>
+                      </nav> <!-- navbar -->
+                  </div>
+              </div> <!-- row -->
+          </div> <!-- container -->
+      </div> <!-- navbar area -->
+  <div class="content">
+    <div>
+      <h1 style="color: white;">&nbsp</h2>
+    </div>
+    <div>
+      <h5 style="color: white;">&nbsp</h2>
+    </div>
+    
+    <div class="container">
+
+      
+      <div class="justify-content-center">
+        <div>
+          
+          <div>
+            <div>
+              <h1 style="color: black;">Hey, </h1>
+              <h1 id="sampletry" style="color: #3E68D4">User</h1>
+              <div>
+                <h3 style="color: white;">&nbsp</h3>
+              </div>
+              <h3 class="mb-5">Fill the form. <br> It's easy.</h3>
+              <hr class="solid">
+              <div>
+                <h5 style="color: white;">&nbsp</h5>
+              </div>
+              <h3 class="mb-5" style="color: #3E68D4;">Personal details</h3>
+
+              <form class="border-right pr-5 mb-5" method="post" id="infoForm" name="infoForm">
+                <!-- Interested Sector, Monthly Income, Age, Country, Occupied Sector, Interested stocks, preferred rate of return, for risk appetite (need to frame a normal question instead of asking directly) -->
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <div>
+                      <h5 style="color: white;">&nbsp</h5>
+                    </div>
+                    <h5 class="mb-5">Age</h5>
+                    <input type="text" class="form-control" name="age" id="age" placeholder="Enter">
+                  </div>
+                  </div>
+                  <div>
+                    <h5 style="color: white;">&nbsp</h5>
+                  </div>
+                  <h5 class="mb-5">Country</h5>
+                  <div class="col-md-12 form-group">
+                    <select name="country" value="country" id="country" class="selectpicker" mutiple="multiple" data-live-search="true">
+                        <option value="">Country</option>
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="Åland Islands">Åland Islands</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="American Samoa">American Samoa</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Angola">Angola</option>
+                        <option value="Anguilla">Anguilla</option>
+                        <option value="Antarctica">Antarctica</option>
+                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="Aruba">Aruba</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Azerbaijan">Azerbaijan</option>
+                        <option value="Bahamas">Bahamas</option>
+                        <option value="Bahrain">Bahrain</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Barbados">Barbados</option>
+                        <option value="Belarus">Belarus</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Belize">Belize</option>
+                        <option value="Benin">Benin</option>
+                        <option value="Bermuda">Bermuda</option>
+                        <option value="Bhutan">Bhutan</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                        <option value="Botswana">Botswana</option>
+                        <option value="Bouvet Island">Bouvet Island</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                        <option value="Brunei Darussalam">Brunei Darussalam</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Burkina Faso">Burkina Faso</option>
+                        <option value="Burundi">Burundi</option>
+                        <option value="Cambodia">Cambodia</option>
+                        <option value="Cameroon">Cameroon</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Cape Verde">Cape Verde</option>
+                        <option value="Cayman Islands">Cayman Islands</option>
+                        <option value="Central African Republic">Central African Republic</option>
+                        <option value="Chad">Chad</option>
+                        <option value="Chile">Chile</option>
+                        <option value="China">China</option>
+                        <option value="Christmas Island">Christmas Island</option>
+                        <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Comoros">Comoros</option>
+                        <option value="Congo">Congo</option>
+                        <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+                        <option value="Cook Islands">Cook Islands</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Cote D'ivoire">Cote D'ivoire</option>
+                        <option value="Croatia">Croatia</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="Cyprus">Cyprus</option>
+                        <option value="Czech Republic">Czech Republic</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="Djibouti">Djibouti</option>
+                        <option value="Dominica">Dominica</option>
+                        <option value="Dominican Republic">Dominican Republic</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Egypt">Egypt</option>
+                        <option value="El Salvador">El Salvador</option>
+                        <option value="Equatorial Guinea">Equatorial Guinea</option>
+                        <option value="Eritrea">Eritrea</option>
+                        <option value="Estonia">Estonia</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                        <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                        <option value="Faroe Islands">Faroe Islands</option>
+                        <option value="Fiji">Fiji</option>
+                        <option value="Finland">Finland</option>
+                        <option value="France">France</option>
+                        <option value="French Guiana">French Guiana</option>
+                        <option value="French Polynesia">French Polynesia</option>
+                        <option value="French Southern Territories">French Southern Territories</option>
+                        <option value="Gabon">Gabon</option>
+                        <option value="Gambia">Gambia</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Gibraltar">Gibraltar</option>
+                        <option value="Greece">Greece</option>
+                        <option value="Greenland">Greenland</option>
+                        <option value="Grenada">Grenada</option>
+                        <option value="Guadeloupe">Guadeloupe</option>
+                        <option value="Guam">Guam</option>
+                        <option value="Guatemala">Guatemala</option>
+                        <option value="Guernsey">Guernsey</option>
+                        <option value="Guinea">Guinea</option>
+                        <option value="Guinea-bissau">Guinea-bissau</option>
+                        <option value="Guyana">Guyana</option>
+                        <option value="Haiti">Haiti</option>
+                        <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+                        <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+                        <option value="Honduras">Honduras</option>
+                        <option value="Hong Kong">Hong Kong</option>
+                        <option value="Hungary">Hungary</option>
+                        <option value="Iceland">Iceland</option>
+                        <option value="India">India</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                        <option value="Iraq">Iraq</option>
+                        <option value="Ireland">Ireland</option>
+                        <option value="Isle of Man">Isle of Man</option>
+                        <option value="Israel">Israel</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Jamaica">Jamaica</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Jersey">Jersey</option>
+                        <option value="Jordan">Jordan</option>
+                        <option value="Kazakhstan">Kazakhstan</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Kiribati">Kiribati</option>
+                        <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+                        <option value="Korea, Republic of">Korea, Republic of</option>
+                        <option value="Kuwait">Kuwait</option>
+                        <option value="Kyrgyzstan">Kyrgyzstan</option>
+                        <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+                        <option value="Latvia">Latvia</option>
+                        <option value="Lebanon">Lebanon</option>
+                        <option value="Lesotho">Lesotho</option>
+                        <option value="Liberia">Liberia</option>
+                        <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                        <option value="Liechtenstein">Liechtenstein</option>
+                        <option value="Lithuania">Lithuania</option>
+                        <option value="Luxembourg">Luxembourg</option>
+                        <option value="Macao">Macao</option>
+                        <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+                        <option value="Madagascar">Madagascar</option>
+                        <option value="Malawi">Malawi</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Maldives">Maldives</option>
+                        <option value="Mali">Mali</option>
+                        <option value="Malta">Malta</option>
+                        <option value="Marshall Islands">Marshall Islands</option>
+                        <option value="Martinique">Martinique</option>
+                        <option value="Mauritania">Mauritania</option>
+                        <option value="Mauritius">Mauritius</option>
+                        <option value="Mayotte">Mayotte</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                        <option value="Moldova, Republic of">Moldova, Republic of</option>
+                        <option value="Monaco">Monaco</option>
+                        <option value="Mongolia">Mongolia</option>
+                        <option value="Montenegro">Montenegro</option>
+                        <option value="Montserrat">Montserrat</option>
+                        <option value="Morocco">Morocco</option>
+                        <option value="Mozambique">Mozambique</option>
+                        <option value="Myanmar">Myanmar</option>
+                        <option value="Namibia">Namibia</option>
+                        <option value="Nauru">Nauru</option>
+                        <option value="Nepal">Nepal</option>
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="Netherlands Antilles">Netherlands Antilles</option>
+                        <option value="New Caledonia">New Caledonia</option>
+                        <option value="New Zealand">New Zealand</option>
+                        <option value="Nicaragua">Nicaragua</option>
+                        <option value="Niger">Niger</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Niue">Niue</option>
+                        <option value="Norfolk Island">Norfolk Island</option>
+                        <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                        <option value="Norway">Norway</option>
+                        <option value="Oman">Oman</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Palau">Palau</option>
+                        <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                        <option value="Panama">Panama</option>
+                        <option value="Papua New Guinea">Papua New Guinea</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Pitcairn">Pitcairn</option>
+                        <option value="Poland">Poland</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Puerto Rico">Puerto Rico</option>
+                        <option value="Qatar">Qatar</option>
+                        <option value="Reunion">Reunion</option>
+                        <option value="Romania">Romania</option>
+                        <option value="Russian Federation">Russian Federation</option>
+                        <option value="Rwanda">Rwanda</option>
+                        <option value="Saint Helena">Saint Helena</option>
+                        <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                        <option value="Saint Lucia">Saint Lucia</option>
+                        <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                        <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+                        <option value="Samoa">Samoa</option>
+                        <option value="San Marino">San Marino</option>
+                        <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="Senegal">Senegal</option>
+                        <option value="Serbia">Serbia</option>
+                        <option value="Seychelles">Seychelles</option>
+                        <option value="Sierra Leone">Sierra Leone</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Slovakia">Slovakia</option>
+                        <option value="Slovenia">Slovenia</option>
+                        <option value="Solomon Islands">Solomon Islands</option>
+                        <option value="Somalia">Somalia</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="Sudan">Sudan</option>
+                        <option value="Suriname">Suriname</option>
+                        <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                        <option value="Swaziland">Swaziland</option>
+                        <option value="Sweden">Sweden</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                        <option value="Taiwan, Province of China">Taiwan, Province of China</option>
+                        <option value="Tajikistan">Tajikistan</option>
+                        <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Timor-leste">Timor-leste</option>
+                        <option value="Togo">Togo</option>
+                        <option value="Tokelau">Tokelau</option>
+                        <option value="Tonga">Tonga</option>
+                        <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                        <option value="Tunisia">Tunisia</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="Turkmenistan">Turkmenistan</option>
+                        <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                        <option value="Tuvalu">Tuvalu</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="United States">United States</option>
+                        <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Uzbekistan">Uzbekistan</option>
+                        <option value="Vanuatu">Vanuatu</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Viet Nam">Viet Nam</option>
+                        <option value="Virgin Islands, British">Virgin Islands, British</option>
+                        <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                        <option value="Wallis and Futuna">Wallis and Futuna</option>
+                        <option value="Western Sahara">Western Sahara</option>
+                        <option value="Yemen">Yemen</option>
+                        <option value="Zambia">Zambia</option>
+                        <option value="Zimbabwe">Zimbabwe</option>
+                    </select>
+                    <span class="select-btn">
+                        <i class="zmdi zmdi-chevron-down"></i>
+                    </span>
+                  </div>
+               <div>
+                 <h2 style="color: white;">&nbsp</h2>
+               </div>
+               <hr class="solid">
+               <div>
+                 <h5 style="color: white;">&nbsp</h5>
+               </div>
+               <h3 class="mb-5" style="color: #3E68D4;">Financial Details</h3>
+               <div>
+                <h5 style="color: white;">&nbsp</h5>
+              </div>
+                <div class="row">
+                  <div class="col">
+                  <h5 class="mb-5">Yearly Income (approx)</h5>
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="yearly_income" id="yearly_income" placeholder="Enter">
+                  </div>
+                  </div>
+                  <div class="col">
+                    <h5 class="mb-5">Yearly Ivestment</h5>
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="yearly_investments" id="yearly_investments" placeholder="Enter">
+                  </div>
+                  </div>
+                </div>
+                <div>
+                  <h5 style="color: white;">&nbsp</h5>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <h5 class="mb-5">Occupied Sector</h5>
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="occupied_sector" id="occupied_sector" placeholder="Enter">
+                  </div>
+                  </div>
+                  <div class="col">
+                    <h5 class="mb-5">Preferred rate of return (%)</h5>
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="pref_ror" id="pref_ror" placeholder="Enter">
+                  </div>
+                  </div>
+                </div>
+                <div>
+                  <h2 style="color: white;">&nbsp</h2>
+                </div>
+                <hr class="solid">
+                <div>
+                  <h5 style="color: white;">&nbsp</h5>
+                </div>
+                <h3 class="mb-5" style="color: #3E68D4;">A couple of questions to help us get to know you, it's worth the time. </h3>
+                <div>
+                  <h4 style="color: white;">&nbsp</h2>
+                </div>
+                <h5 class="mb-5">1. What sectors are you interested in?</h5>
+                  <div class="col-md-12 form-group">
+                    <select name="Sector" value="sector" id="interested_sector" class="selectpicker" mutiple="multiple" data-live-search="true">
+                      <option value="">Select</option>
+                      <option value="energy">Energy</option>
+                      <option value="materials">Materials</option>
+                      <option value="consumer discretionary">Consumer Discretionary</option>
+                      <option value="consumer staples">Consumer staples</option>
+                      <option value="health care">Health Care</option>
+                      <option value="financials">Financials</option>
+                      <option value="information technology">Information Technology</option>
+                      <option value="telecommunication services">Telecommunication services</option>
+                      <option value="utilites">Utilites</option>
+                      <option value="real estate">Real Estate</option>
+                    </select>
+                    <span class="select-btn">
+                        <i class="zmdi zmdi-chevron-down"></i>
+                    </span>
+                  </div>
+                <div>
+                  <h4 style="color: white;">&nbsp</h2>
+                </div>
+                <h5 class="mb-5">2. What is your investment attitute?</h5>
+                <div class="col-md-12 form-group">
+                  <select name="Sector" value="sector" id="ques_2" class="selectpicker" mutiple="multiple" data-live-search="true">
+                    <option value="">Select</option>
+                    <option value="0.2">Very Conservative</option>
+                    <option value="0.4">Somewhat conservative</option>
+                    <option value="0.6">Moderate</option>
+                    <option value="0.8">Somewhat Agressive</option>
+                    <option value="1.0">Very Agressive</option>
+                  </select>
+                  <span class="select-btn">
+                      <i class="zmdi zmdi-chevron-down"></i>
+                  </span>
+                </div>     
+                <div>
+                  <h4 style="color: white;">&nbsp</h6>
+                </div> 
+                <h5 class="mb-5">3. Protecting my portfolio is more important to me than high returns.</h5> 
+                <div class="col-md-12 form-group">
+                  <select name="Sector" value="sector" id="ques_3" class="selectpicker" mutiple="multiple" data-live-search="true">
+                    <option value="">Select</option>
+                    <option value="0.2">Strongly Agree</option>
+                    <option value="0.4">Agree</option>
+                    <option value="0.6">Neutral</option>
+                    <option value="0.8">Disagree</option>
+                    <option value="1.0">Strongly Disagree</option>
+                  </select>
+                  <span class="select-btn">
+                      <i class="zmdi zmdi-chevron-down"></i>
+                  </span>
+                </div>       
+               <div>
+                <div>
+                  <h2 style="color: white;">&nbsp</h2>
+                </div>
+                <h5 class="mb-5">4. Keeping the above answer in mind which of the following statements make the most sense to you?</h5>
+                <div class="col-md-12 form-group">
+                  <select name="Sector" value="sector" id="ques_4" class="selectpicker" mutiple="multiple" data-live-search="true">
+                    <option value="">Select</option>
+                    <option value="0.2">To completely avoid losses is something I am more interested in</option>
+                    <option value="0.4">I would like to avoid losses but I accept that risk is a factor</option>
+                    <option value="0.6">I am concerned about losses along with returns</option>
+                    <option value="0.8">I am willing to bare the consequences of a loss to maximize my returns</option>
+                    <option value="1.0">I'm not concerned about risk, I only want to maximize my profits</option>
+                  </select>
+                  <span class="select-btn">
+                      <i class="zmdi zmdi-chevron-down"></i>
+                  </span>
+                </div>       
+               <div>
+                <div>
+                  <h2 style="color: white;">&nbsp</h2>
+                </div>
+                <h5 class="mb-5">5. Which of the following statements best describes your investment philosophy?</h5>
+                <div class="col-md-12 form-group">
+                  <select name="Sector" value="sector" id="ques_5" class="selectpicker" mutiple="multiple" data-live-search="true">
+                    <option value="">Select</option>
+                    <option value="0.2">I only feel comfortable when there is no risk, I'm not concerned with making high returns</option>
+                    <option value="0.4">I feel comfortable with stable investments</option>
+                    <option value="0.6">I am willing to withstand some fluctuations in my investment</option>
+                    <option value="0.8">I am seeking substantial investment returns</option>
+                    <option value="1.0">I am seeking potentially high investment returns</option>
+                  </select>
+                  <span class="select-btn">
+                      <i class="zmdi zmdi-chevron-down"></i>
+                  </span>
+                </div> 
+                </div>
+                <div>
+                  <h2 style="color: white;">&nbsp</h2>
+                </div>
+                <h5 class="mb-5">6. If you had 50,000rs to invest for a 10 year period, which portfolio would you prefer?</h5>
+                <div class="col-md-12 form-group">
+                  <select name="Sector" value="sector" id="ques_6" class="selectpicker" mutiple="multiple" data-live-search="true">
+                    <option value="">Select</option>
+                    <option value="0.2">Low risk / low return</option>
+                    <option value="0.4">Some risk / Some return</option>
+                    <option value="0.6">Medium risk / Medium return</option>
+                    <option value="0.8">Higher risk / Higher return</option>
+                    <option value="1.0">Highest risk / Highest return</option>
+                  </select>
+                  <span class="select-btn">
+                      <i class="zmdi zmdi-chevron-down"></i>
+                  </span>
+                </div>     
+                <div>
+                  <h4 style="color: white;">&nbsp</h6>
+                </div> 
+                <h5 class="mb-5">7. I prefer investments with little or no fluctuation in value, and I am willing to accept the lower returns associated with these investments</h5>
+                <div class="col-md-12 form-group">
+                  <select name="Sector" value="sector" id="ques_7" class="selectpicker" mutiple="multiple" data-live-search="true">
+                    <option value="">Select</option>
+                    <option value="0.2">I strongly agree</option>
+                    <option value="0.4">I somewhat agree</option>
+                    <option value="0.6">I agree</option>
+                    <option value="0.8">I disagree</option>
+                    <option value="1.0">I strongly disagree</option>
+                  </select>
+                  <span class="select-btn">
+                      <i class="zmdi zmdi-chevron-down"></i>
+                  </span>
+                </div>
+                </div>
+                <div>
+                  <h2 style="color: white;">&nbsp</h2>
+                </div>
+                <h5 class="mb-5">8. When the market goes down, my preference would be to sell some of my riskier assets and put the money in safer assets.</h5>
+                <div class="col-md-12 form-group">
+                  <select name="Sector" value="sector" id="ques_8" class="selectpicker" mutiple="multiple" data-live-search="true">
+                    <option value="">Select</option>
+                    <option value="0.2">I strongly agree</option>
+                    <option value="0.4">I somewhat agree</option>
+                    <option value="0.6">I agree</option>
+                    <option value="0.8">I disagree</option>
+                    <option value="1.0">I strongly disagree</option>
+                  </select>
+                  <span class="select-btn">
+                      <i class="zmdi zmdi-chevron-down"></i>
+                  </span>
+                </div>     
+                <div>
+                  <h4 style="color: white;">&nbsp</h6>
+                </div>   
+                <h5 class="mb-5">9. When considering your investments and making investment decisions, do you think about the impact of possible losses or possible gains?</h5>
+                <div class="col-md-12 form-group">
+                  <select name="Sector" value="sector" id="ques_9" class="selectpicker" mutiple="multiple" data-live-search="true">
+                    <option value="">Select</option>
+                    <option value="0.2">I am always concerned about the possible losses</option>
+                    <option value="0.4">I am somewhat concerned about possible losses</option>
+                    <option value="0.6">I usually consider possible gains</option>
+                    <option value="0.8">I am somewhat concerned about possible gains</option>
+                    <option value="1.0">I always consider possible gains</option>
+                  </select>
+                  <span class="select-btn">
+                      <i class="zmdi zmdi-chevron-down"></i>
+                  </span>
+                </div>     
+                <div>
+                  <h4 style="color: white;">&nbsp</h6>
+                </div>
+                <h5 class="mb-5">10. What is the primary purpose of investing in your circumstances?</h5>
+                <div class="col-md-12 form-group">
+                  <select name="Sector" value="sector" id="ques_10" class="selectpicker" mutiple="multiple" data-live-search="true">
+                    <option value="">Select</option>
+                    <option value="0.2">To generate a passive income</option>
+                    <option value="0.4">To generate a stable income</option>
+                    <option value="0.6">To preserve my wealth and protect against inflation</option>
+                    <option value="0.8">To generate a high income</option>
+                    <option value="1.0">To generate high returns and increase my wealth</option>
+                  </select>
+                  <span class="select-btn">
+                      <i class="zmdi zmdi-chevron-down"></i>
+                  </span>
+                </div>     
+                <div>
+                  <h4 style="color: white;">&nbsp</h6>
+                </div>
+               <div>
+                <h5 class="mb-5">11. What is the maximum investment loss that you are prepared to risk in exchange for high returns over the long term?</h5>
+                <div class="col-md-12 form-group">
+                  <select name="Sector" value="sector" id="ques_11" class="selectpicker" mutiple="multiple" data-live-search="true">
+                    <option value="">Select</option>
+                    <option value="0.2">No loss of income or capital. I need a guaranteed return each year</option>
+                    <option value="0.4">I could tolerate losing my income/interest earned in the year, but would not tolerate the loss of capital</option>
+                    <option value="0.6">I could tolerate a small loss of capital</option>
+                    <option value="0.8">I could tolerate a medium loss of capital</option>
+                    <option value="1.0">I could tolerate a large loss of capital</option>
+                  </select>
+                  <span class="select-btn">
+                      <i class="zmdi zmdi-chevron-down"></i>
+                  </span>
+                </div>    
+                <div>
+                  <h4 style="color: white;">&nbsp</h6>
+                </div>  
+                <h5 class="mb-5">12. Assuming normal market conditions, what would you expect from this investment over time?</h5>
+                <div class="col-md-12 form-group">
+                  <select name="Sector" value="sector" id="ques_12" class="selectpicker" mutiple="multiple" data-live-search="true">
+                    <option value="">Select</option>
+                    <option value="0.2">To generally keep pace with the stock market</option>
+                    <option value="0.4">To slightly trail the stock market, but make a good profit</option>
+                    <option value="0.6">To trail the stock market, but make a moderate profits</option>
+                    <option value="0.8">To have some stability, but make modest profits</option>
+                    <option value="1.0">To have a high degree of stability by what happens in the stock market</option>
+                  </select>
+                  <span class="select-btn">
+                      <i class="zmdi zmdi-chevron-down"></i>
+                  </span>
+                </div>    
+                <div>
+                  <h4 style="color: white;">&nbsp</h6>
+                </div>  
+               <div>
+                <div>
+                  <h2 style="color: white;">&nbsp</h2>
+                </div>               
+                <div>
+                <div>         
+               <div>
+                <h3 style="color:#3E68D4">A stock that you've already invested in, which best describes your portfolio?</h3>
+                <div class="wrapper">
+                  <div class="search-input">
+                    <a href="" target="_blank" hidden></a>
+                    <input type="text" placeholder="Type to search.." id="stocks_already">
+                    <div class="autocom-box">
+                      <!-- here list are inserted from javascript -->
+                    </div>
+                    <div class="icon"><i class="fas fa-search"></i></div>
+                  </div>
+                </div>
+                <div>
+                  <h2 style="color: white;">&nbsp</h2>
+                </div>
+                <h5 class="mb-5">Anything else you'd like to tell us? </h5>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <textarea class="form-control" name="extra_message" id="extra_message" cols="30" rows="7" placeholder="Write your message"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="navbar-btn d-none d-sm-inline-block">
+                    <input type="submit" value="submit" class="main-btn" >
+                    <div id = "myDiv" style="display: none; margin-left: 30px;  margin-top: 10px;"><img id = "myImage" src = "../static/land_in_up/assets/images/loader_spin.svg"></div><br>
+                    <span class="submitting"></span>
+                  </div>
+                </div>
+              </form>
+
+              <div id="form-message-warning mt-4"></div> 
+              <div id="form-message-success">
+                Your message was sent, thank you!
+              </div>
+
+            </div>
+
+          </div>
+        </div>  
+        </div>
+      </div>
+  </div>
+    <script src="../static/userinfoform/js/jquery-3.3.1.min.js"></script>
+    <script src="../static/userinfoform/js/popper.min.js"></script>
+    <script src="../static/userinfoform/js/bootstrap.min.js"></script>
+    <script src="../static/userinfoform/js/jquery.validate.min.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase.js"></script>
+    <script src="../static/userinfoform/js/main.js"></script>
+    <script src = "../static/userinfoform/js/mainsend.js"></script>
+    <script src="../static/userinfoform/js/suggestions.js"></script>
+    <script src="../static/userinfoform/js/search_script.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+
+<!-- (Optional) Latest compiled and minified JavaScript translation files -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-*.min.js"></script>
+<script>
+  $('.my-select').selectpicker();
+</script>
+
+  </body>
+</html>

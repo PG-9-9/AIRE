@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AIRE</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'land_in_up/fonts/material-icon/css/material-design-iconic-font.min.css')}}">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'land_in_up/css/style_sign_in_up_.css')}}">
+    <style>
+        .button {
+        background-color: #f4511e;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 0.7;
+        transition: 0.3s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 10px;
+        }
+
+        .button:hover {opacity: 1}
+    </style>
+</head>
+<body>
+
+    <div class="main" id="signupform">
+
+        <!-- Sign up form -->
+        <section class="signup">
+            <div class="container"> 
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account"></i></label>
+                                <input type="text" name="fname" id="fname_up" placeholder="First Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account"></i></label>
+                                <input type="text" name="lname" id="lname_up" placeholder="Last Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email_up" placeholder="Your Email"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass_up" placeholder="Password"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                            </div>
+                            <div class="form-group form-button">
+                                <!--<input type="submit" name="signup" id="signup" class="form-submit" value="Register" onclick="signUp()"/>-->
+                                <button formaction="./index.html" class="button" type="submit" target="./secondpage.html">Sign Up</button>
+                            </div>
+                            <div>
+                                <p>* The information you provide will be shown to other users and enhance the user experience</p>
+                            </div>
+                            <div id = "myDiv" style="display: none; margin-left: 30px;"><img id = "myImage" src = "../static/land_in_up/assets/images/loader_spin.svg"></div><br>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="../static/land_in_up/images/signup_img.png" alt="sing up image"></figure>
+                        <a href="./signin.html" class="signup-image-link">I am already member</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <div style="position: absolute; width: 100%; height: 100%;" id="particles-2"></div>
+
+    <!-- JS -->
+    <script src="../static/land_in_up/vendor/jquery/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+    <script src="../static/main_sign_in_up.js"></script>
+    <script src="../static/land_in_up/assets/js/particles.min.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
