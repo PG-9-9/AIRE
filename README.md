@@ -1,4 +1,5 @@
-# Personalized Stock Recommender
+# Adaptable Individualized Investment Recommendation System
+
 
 ## Overview
 
