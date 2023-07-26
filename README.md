@@ -31,15 +31,21 @@ The entire system has been deployed as an end-to-end CI/CD pipeline, allowing fo
 
 The repository is structured as follows:
 
-/src # Source code directory
-/clustering # Code related to clustering techniques
-/recommendation # Code for generating personalized stock recommendations
-/docs # Documentation files
-/user_guide # User guide for the recommender system
-/deployment # Deployment documentation
-/data # Sample data used for development and testing
-/tests # Unit tests and integration tests
-README.md # This Readme file
+1. /.ebextensions -> The '/.ebextensions/00-packages.config' contains configuration files for yum and git.
+
+2. /static -> The /static directory contains all the assets, additional components like images and fonts and data for the project which supports '/templates'.
+
+3. /templates -> The '/templates' directory contains HTML pages or frontend related to the project, such as the sign-in, signup, dashboard, user info etc.
+
+4. /tests 
+
+5. README.md 
+
+6. application.py -> The 'application.py' contains scripts to get the data using twitter API, Cleaning the data, sentiment analysis, recommendation and setup files with variables like API keys or database connections.
+
+7. forest.txt 
+
+8. requirement.txt -> The 'requirement.txt' includes all the necessary packages used in this project.
 
 
 ## Getting Started
