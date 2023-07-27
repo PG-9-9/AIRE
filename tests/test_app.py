@@ -4,14 +4,14 @@ import json
 def test_index(app,client):
       
         firebaseConfig = {
-    "apiKey": "AIzaSyA7C4qwXDACuVNNJjbyHpGi_mDzuvfYZQQ",
-    "authDomain": "aire-ed2c0.firebaseapp.com",
-    "databaseURL": "https://aire-ed2c0-default-rtdb.firebaseio.com/",
-    "projectId": "aire-ed2c0",
-    "storageBucket": "aire-ed2c0.appspot.com",
-    "messagingSenderId": "885283015139",
-    "appId": "1:885283015139:web:9b0adc7e08b87443ddb8d6",
-    "measurementId": "G-65KNQLBSBX"
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": "",
+    "measurementId": ""
     };
         firebase = pyrebase.initialize_app(firebaseConfig)
 
