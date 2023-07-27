@@ -36,10 +36,10 @@ _EXCHANGE_LIST = ['nyse', 'nasdaq', 'amex']
 
 #twitter api credentials
 #loading the twitter API credentials
-consumerKey = "KHKHhFUpP8CQexqq11oelEVBU"
-consumerSecret = "4fLYt8lqtln3bPgcXM9Ta54uaWlYRsDc8R7cPqEvA0x25zH4UW"
-accessToken = "2390597618-RW6m3lpFlBjOIfS4bf0OkQmBV1GAsqcoIqU9CZs"
-accessTokenSecret = "NUuuXfjcQ2xGqRXuhST7E2Cu87PTqS5jCwS98ao5eHF8s"
+consumerKey = ""
+consumerSecret = ""
+accessToken = ""
+accessTokenSecret = ""
 
 authenicate = tweepy.OAuthHandler(consumerKey, consumerSecret)
         #set the access token and access secret token
