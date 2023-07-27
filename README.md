@@ -1,25 +1,26 @@
-# Adaptable Individualized Investment Recommendation System
+# Adaptable Individualized Investment Recommendation Engine (AIRE)
 
 
 ## Overview
 
-This repository contains the code and documentation for my Bachelor Thesis project, "Personalized Stock Recommender." The project was completed in May 2021 and aimed to design a system that provides personalized stock portfolio recommendations based on user interests and risk tolerance.
+This repository contains the code and documentation for our Bachelor Thesis project, "Adaptable Individualized Investment Recommendation Engine (AIRE)." The project was completed in May 2021 and aimed to design a system that provides personalized stock portfolio recommendations based on user interests and risk tolerance.
 
 ## Project Details
 
-- **Title:** Adaptable Individualized Investment Recommendation System
+- **Title:** Adaptable Individualized Investment Recommendation Engine (AIRE)
 - **Completion Date:** May 2021
 - **Degree:** Bachelor Thesis
 
 ## Features
 
 - Utilized clustering techniques to assess user risk tolerance and preferences.
-- Developed a personalized stock portfolio recommendation system based on user interests.
+- Made use of sentimental analysis over twitter to under stock mentality
+- Made a ensemble machine learning model to weigh the individual's user interest. 
 - Deployed the entire system as an end-to-end CI/CD pipeline using Jenkins across Amazon EC2 instance.
 
 ## How It Works
 
-The Personalized Stock Recommender uses clustering algorithms to analyze user-provided data, such as historical investment behavior, financial goals, and risk preferences. Based on this information, the system assesses the user's risk tolerance level and identifies their interests in different types of stocks.
+The Personalized Stock Recommender uses clustering algorithms to analyze user-provided data, such as historical investment behavior, financial goals, and risk preferences. Based on this information and daily sentiment of stocks on twitter, the system assesses the user's risk tolerance level and identifies their interests in different types of stocks.
 
 Using the collected data, the recommender system generates a personalized stock portfolio that aligns with the user's risk profile and investment preferences.
 
@@ -50,7 +51,7 @@ The repository is structured as follows:
 
 ## Getting Started
 
-To get started with the Personalized Stock Recommender, follow the instructions provided in the `/docs/user_guide` directory. It will guide you through the process of setting up the system, providing user data, and receiving personalized stock portfolio recommendations.
+Will be updated
 
 ## Feedback and Contributions
 
@@ -61,4 +62,3 @@ Feedback and contributions are welcome! If you have any suggestions, improvement
 Thank you for your interest in the Personalized Stock Recommender project. If you have any questions or need further information, feel free to contact me.
 
 *Author: Vishaal Saravanan, Roobesh Balaji & Mohamed Arshad*
-*Contact: vishaals0507@gmail.com*
